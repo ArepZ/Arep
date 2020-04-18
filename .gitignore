@@ -1,41 +1,99 @@
-# Compiled Lua sources
-luac.out
+gg.alert('Script Made by ArepZ for Car Parking Multiplayer')
+gg.toast('By ArepZ')
+::menu::
+menu=gg.choice({'🔥About🔥','🔥Speed hack of car (off)/(On)🔥','🔥First Level Time hack😁😎😏$🔥','🔥Chrome your car🔥','🔥Ufo your Car🔥','🔥Exit🔥'},nil,"🔥By Ain Gaming🔥")
+if menu==1 then goto joke end
+if menu==2 then goto Pole end
+if menu==3 then goto Mone end
+if menu==4 then goto Jape end
+if menu==5 then goto Lapel end
+::Tame::
+    os.exit()
+    --10--
+    ::joke::
+strong=gg.choice({'🧨About🧨','🧨Learn more🧨','🧨Channel🧨','🧨Back🧨'})
+if strong== 1 then goto match end
+if strong== 2 then goto weak end
+if strong== 3 then goto lacked end
+if strong== 4 then goto Mapped end
+goto Tame
+::Paled::
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('700',gg.TYPE_FLOAT)
+gg.getResults(30)
+gg.editAll('300000000',gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('Success!!')
+goto menu
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+::Pole::
+    rest=gg.choice({'📛On📛','📛Off📛','📛Back📛'})
+    if rest==1 then goto Paled end
+    if rest==2 then goto nailed end
+    if rest==3 then goto loapel end
+    ::loapel::
+        goto menu
+::nailed::
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('300000000',gg.TYPE_FLOAT)
+gg.getResults(30)
+gg.editAll('700',gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('Success!!')
+goto menu
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+::Mone::
+gg.searchNumber('40',gg.TYPE_FLOAT)
+gg.getResults(100)
+gg.editAll('10000000',gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast('Success!!')
+goto menu
 
-# Precompiled Headers
-*.gch
-*.pch
+::Jape::
+gg.searchNumber('1',gg.TYPE_FLOAT)
+gg.refineNumber('1',gg.TYPE_FLOAT)
+gg.getResults(36000)
+gg.editAll('-8',gg.TYPE_FLOAT)
+goto menu
+if menu==6 then
+os.exit()
+end
+::match::
+gg.alert('By Ain Gaming subscribe for more scripts')
+gg.toast('Success!')
+goto menu
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+::weak::
+gg.alert('Site- www.gameguardian.net')
+goto menu
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+::lacked::
+    gg.alert('Channel:- https://m.youtube.com/channel/UCKVlk_EePiM6z8QA8iuyuww')
+    gg.alert('Please Subscribe')
+    goto menu
+::Mapped::
+goto menu
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+::Lapel::
+    yeast=gg.choice({'🧯Tilt Tyres🧯','🧯Height of car hack🧯','🧯Back🧯'},nil,'Important Notice!! Make sure your Suspensions all are fully at the right')
+    if yeast==1 then goto Poliano end
+    if yeast==2 then goto Coliano end
+    if yeast==3 then goto Noliano end
+    goto Lapel
+    ::Poliano::
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('-10',gg.TYPE_FLOAT)
+gg.getResults(100000)
+gg.editAll('-75',gg.TYPE_FLOAT)
+gg.clearResults()
+goto Tame
+::Coliano::
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('0.30',gg.TYPE_FLOAT)
+gg.getResults(100000)
+gg.editAll('1.00',gg.TYPE_FLOAT)
+gg.clearResults()
+goto Tame
+::Noliano::
+goto menu
